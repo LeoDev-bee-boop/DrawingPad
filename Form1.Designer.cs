@@ -139,6 +139,7 @@ namespace WindowsFormsApp1
             this.pinkBox.Size = new System.Drawing.Size(22, 22);
             this.pinkBox.TabIndex = 7;
             this.pinkBox.TabStop = false;
+            this.pinkBox.Click += new System.EventHandler(this.pinkBox_Click);
             // 
             // blackBox
             // 
